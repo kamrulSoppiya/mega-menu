@@ -1,7 +1,7 @@
 import style from './test.module.css';
-import img from '../../assets/img/programming.jpg';
-import img1 from '../../assets/img/dev.jpg';
-import animation from '../../assets/img/cycling.gif';
+import img from '../assets/img/programming.jpg';
+import img1 from '../assets/img/dev.jpg';
+import animation from '../assets/img/cycling.gif';
 import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
 export default function Test() {
@@ -9,7 +9,7 @@ export default function Test() {
     const [megaMenuOpen, setMegaMenuOpen] = useState([
         { id: 1, item: false },
         { id: 2, item: false }
-    ]);
+    ]);  
 
     const [dropDownOpen, setDropDownOpen] = useState([
         {id:1, item: false, subItem:[
